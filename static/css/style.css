@@ -85,17 +85,6 @@ a:hover { color: #036; }
 /* Typography */
 /* ------------------------------------------------------------------------ */
 
-@font-face {
-    font-family: 'Museo500';
-    src: url('../fonts/museo-500-regular-webfont.eot');
-    src: url('../fonts/museo-500-regular-webfont.eot?#iefix') format('eot'),
-         url('../fonts/museo-500-regular-webfont.woff') format('woff'),
-         url('../fonts/museo-500-regular-webfont.ttf') format('truetype'),
-         url('../fonts/museo-500-regular-webfont.svg#webfontWLQ5glEK') format('svg');
-    font-weight: normal;
-    font-style: normal; 
-}
-
 body {
   font: 15px/21px helvetica, sans-serif; color: #DDDDDD; font-weight: 200;
 }
@@ -103,9 +92,9 @@ p {
   margin: 0 0 21px 0;
   text-shadow: 0px 2px 0px #000000;
 }
-h1, h2, h3, h4, h5, .museo {
-  font-family: "Museo500", helvetica, sans-serif; font-weight: normal;
-  text-shadow: 0px 2px 0px #000000; color: #AAAAAA;
+h1, h2, h3, h4, h5 {
+  font-family: 'Righteous', cursive;
+  text-shadow: 0px 2px 0px #333333; color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }

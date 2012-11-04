@@ -1060,52 +1060,9 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 /* ------------------------------------------- */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  .page-notification .close-button {
-    background-image:url(../images/cross@2x.png);
-    -webkit-background-size:15px;
-  }
   .logo {
     background-image:url(../images/logo@2x.png);
-    -webkit-background-size:173px 28px;
-  }
-  #footer .logo {
-    background-image:url(../images/logo-footer@2x.png);
-    -webkit-background-size:173px 28px;
-  }
-
-  .responsive-nav {
-    background-image:url(../images/responsive-nav@2x.png);
-    -webkit-background-size:41px 40px;
-  }
-
-  .main-nav > ul > li ul li a .sf-sub-indicator {
-    background-image:url(../images/menu-arrow@2x.png);
-    -webkit-background-size:3px 26px;
-  }
-
-  #blog .entry .entry-meta .calender  {
-    background-image:url(../images/calender@2x.png);
-    -webkit-background-size:14px;
-  } 
-
-  #blog .entry .entry-meta .comments  {
-    background-image:url(../images/comments@2x.png);
-    -webkit-background-size:16px 14px;
-  }
-
-  #blog .entry .entry-meta .user  {
-    background-image:url(../images/user@2x.png);
-    -webkit-background-size:14px;
-  }
-  .blog-nav .next,
-  .blog-nav .previous {
-    background-image:url(../images/arrow_nav@2x.png);
-    -webkit-background-size:60px 30px;
-  }
-  #toTop,
-  #toTopHover {
-    background-image:url(../images/arrow-up@2x.png);
-    -webkit-background-size:30px;
+    -webkit-background-size:235px 32px;
   }
 }
 

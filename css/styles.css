@@ -1085,6 +1085,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 .social-icons li.facebook { background-position: -46px 0px; }
 .social-icons li.github   { background-position: -92px 0px; }
 .social-icons li.quora    { background-position: -184px 0px; }
+.social-icons li.linkedin { background-position: -230px 0px; }
 .social-icons li.rdio     { background-position: -276px 0px; }
 
 /* hover */
@@ -1092,5 +1093,6 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 .social-icons li.facebook:hover { background-color: #3b5998; background-position: -46px -46px; opacity:1; }
 .social-icons li.github:hover   { background-color: #333333; background-position: -92px -46px; opacity:1; }
 .social-icons li.quora:hover    { background-color: #A82400; background-position: -184px -46px; opacity:1; }
+.social-icons li.linkedin:hover { background-color: #319BDF; background-position: -230px -46px; opacity:1; }
 .social-icons li.rdio:hover     { background-color: #008FD5; background-position: -276px -46px; opacity:1; }
 

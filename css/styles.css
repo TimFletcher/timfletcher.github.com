@@ -17,7 +17,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  margin-bottom:10px;
+  margin-bottom:25px;
   line-height:1.2;
   color:#444;
   letter-spacing:-0.05em;
@@ -28,14 +28,19 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 { font-size:35px; font-weight:300;  }
 h2 { font-size:25px; }
-h3 { font-size:20px; }
+h3 { font-size:20px; margin-bottom: 28px; }
 h4 { font-size:16px; }
-h5 { font-size:14px; font-weight:bold; }
+h5 { font-size:14px; font-weight:bold; margin: 0; line-height: 1.2; }
 h6 { font-size:13px; }
 
 
+ul { margin: 0 0 2em 2em; }
+li { list-style-type: disc; }
+
+p { line-height: 1.5; margin-bottom: 2em; }
+
 a {
-  color:inherit;
+  color:#ff674f;
   -webkit-transition:color .3s;
      -moz-transition:color .3s;
       -ms-transition:color .3s;
@@ -45,7 +50,7 @@ a {
 
 strong { font-weight: 700; }
 
-a:hover { color:#ff674f; }
+a:hover { border-bottom: 1px dotted; }
 
 ::selection {
   color:#fff;
@@ -194,6 +199,8 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   //     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.55);
 }
 
+#hellobar p { margin: 0; }
+
 #hellobar .button {
   padding: 3px 10px 2px 12px;
   margin: 1px 0 1px 10px;
@@ -255,9 +262,9 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   overflow:hidden;
 }
 
-#page-header .page-title { font-weight:700; color:#333333; }
+#page-header .page-title { font-weight:700; color:#333333; margin-bottom: 10px; }
 
-#page-header .sub-title { font-weight:300; color:#a4a4a4; }
+#page-header .sub-title { font-weight:300; color:#a4a4a4; margin-bottom: 10px; }
 
 
 /* ---------------------------------------------------------------------- */
@@ -484,6 +491,10 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   background-color: #ff3b1c;
   color: #FFFFFF;
 }
+
+#footer ul { margin: 0; }
+#footer li { list-style-type: none; }
+#footer p { margin: 0; }
 
 #toTop {
   display:none;
@@ -721,7 +732,9 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 /*  Blog
 /* ---------------------------------------------------------------------- */
 
-#blog .entry { margin-bottom:30px; padding-bottom:25px; border-bottom:1px solid #e4e4e4; }
+#blog { margin-top: 7px; }
+
+#blog .entry { margin-bottom:30px; padding-bottom:25px; }
 
 #blog .entry .entry-title { margin:0 0 5px; }
 
@@ -745,6 +758,9 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 #blog .entry .entry-image { float:left; margin:0 0 20px; }
 #blog .entry .entry-slider { margin:0 0 20px; }
 
+#blog .image_container { margin-bottom: 4em; }
+#blog .image_container img { border: 1px solid #DDDDDD; padding: 3px; }
+#blog .image_container span { display: block; text-align: center; font-size: 11px; }
 
 .blog-nav { float:left; margin:20px 0 0; }
 

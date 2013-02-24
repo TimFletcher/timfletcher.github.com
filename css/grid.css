@@ -31,11 +31,11 @@
 	margin-right:0;
 }
 
-.container .one-half       { width:460px; } 
-.container .one-third      { width:300px; }  
-.container .one-fourth     { width:220px; }   
-.container .two-thirds     { width:620px; }   
-.container .three-fourths  { width:700px; }
+.container .one-half       { width:460px; }
+.container .one-third      { width:300px; }
+.container .one-fourth     { width:220px; }
+.container .two-thirds     { width:620px; }
+.container .three-fourths  { width:700px; margin-left: 120px; }
 
 
 /* ------------------------------------------- */
@@ -52,7 +52,7 @@
 	.container .one-third      { width:236px; }  
 	.container .one-fourth     { width:172px; }   
 	.container .two-thirds     { width:492px; }   
-	.container .three-fourths  { width:508px; }
+	.container .three-fourths  { width:508px; margin-left: 0;}
 }
 
 @media only screen and (max-width: 767px) {
@@ -62,7 +62,7 @@
 	.container .one-third, 
 	.container .one-fourth,
 	.container .two-thirds,
-	.container .three-fourths { width:300px; margin-right:0; }
+	.container .three-fourths { width:300px; margin-right:0; margin-left: 0; }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -72,5 +72,5 @@
 	.container .one-third, 
 	.container .one-fourth,
 	.container .two-thirds,
-	.container .three-fourths { width:420px; margin-right:0; }
+	.container .three-fourths { width:420px; margin-right:0; margin-left: 0; }
 }

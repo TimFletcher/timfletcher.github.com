@@ -211,6 +211,14 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   background-color: #666666;
 }
 
+#hellobar a {
+  color: white;
+}
+
+#hellobar a:hover {
+  color: black;
+}
+
 /* ---------------------------------------------------------------------- */
 /*  Page Notification
 /* ---------------------------------------------------------------------- */

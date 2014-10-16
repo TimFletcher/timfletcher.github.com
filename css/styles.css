@@ -12,6 +12,7 @@ body {
   font-size:14px;
   line-height:22px;
   color:#727378;
+  background-color: #FFFFFF;
   -webkit-font-smoothing:antialiased;
   -webkit-text-size-adjust:100%;
 }
@@ -602,21 +603,29 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 /*    5. Single
 /* ------------------------------------------- */
 
-.portfolio { margin:0 -20px 10px 0; }
+.portfolio {
+  margin:0 -20px 10px 0;
+}
 
 .portfolio article {
   margin-bottom:30px;
-  background:#f5f5f5;
-  border-bottom:1px solid #ff674f;
+  background:#FFFFFF;
   text-align:center;
   -webkit-transition:background-color .3s;
      -moz-transition:background-color .3s;
       -ms-transition:background-color .3s;
        -o-transition:background-color .3s;
           transition:background-color .3s;
+  box-shadow:0 1px 1px rgba(0,0,0,.2);
+  line-height: 1.5;
 }
 
-.portfolio article a { float:left; }
+
+.portfolio article:hover {
+  box-shadow:0 2px 3px rgba(0,0,0,.25);
+}
+
+.portfolio article>a { float:left; text-decoration: none;}
 
 .portfolio article img {
   float:left;
@@ -632,26 +641,33 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   float:left;
   width:100%;
   margin:0;
-  padding:11px 10px 10px;
+  font-size: 15px;
+  padding:16px 10px 7px;
+  font-weight: 700;
   text-align:center;
   -webkit-box-sizing:border-box;
      -moz-box-sizing:border-box;
       box-sizing:border-box;
 }
 
-.portfolio article:hover { background:#ff674f; }
+.portfolio article .areas {
+  margin: 0 0 13px 0;
+  font-size: 13px;
+}
+.portfolio article .areas li {
+  list-style-type: none;
+  margin: 0;
+}
+.areas li>a:hover {
+  text-decoration: underline;
+}
 
-.portfolio article:hover img { opacity:0.6; }
-
-.portfolio article:hover .title { color:#fff; }
-
-
-.portfolio.two-col article { float:left; width:460px; margin-right:20px; }
+.portfolio.two-col article { float:left; width:420px;}
+.portfolio.two-col article:last-child { float: right; margin-right: 20px;}
 
 .portfolio.three-col article { float:left; width:300px; margin-right:20px; }
 
 .portfolio.four-col article { float:left; width:220px; margin-right:20px; }
-
 
 .project { float:left; margin:0 0 40px; }
 
@@ -662,6 +678,8 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 .project .project-info li strong { font-weight:bold; color:#444444; }
 
 .project .button { float:left; margin:20px 0 0; }
+
+
 
 
 /* ---------------------------------------------------------------------- */
@@ -1027,6 +1045,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   .portfolio.three-col article,
   .portfolio.four-col article,
   .portfolio.two-col article { float:left; width:300px; margin-right:0; }
+  .portfolio.two-col article:last-child { float: left; margin-right: 0;}
 
   .project .entry-image { margin:0 0 20px; }
 

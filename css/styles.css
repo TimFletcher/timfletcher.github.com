@@ -369,6 +369,10 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 /*  Home Page
 /* ---------------------------------------------------------------------- */
 
+#main {
+  padding-top: 20px;
+}
+
 .home-slider { margin:0 0 10px 0; }
 
 
@@ -462,13 +466,41 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 
 .recent-post-slider { width:100%; float:left; }
 
+/* ---------------------------------------------------------------------- */
+/*  Contact Callout
+/* ---------------------------------------------------------------------- */
+
+#contact-callout {
+  padding:100px 0 100px;
+  background:#FF674F;
+  color:#FFFFFF;
+  font-weight:700;
+  font-size: 35px;
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+#contact-callout .button {
+  padding: 14px 20px 14px 20px;
+  margin-left: 30px;
+  background-color: #444444;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+}
+
+#contact-callout .button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+
 
 /* ---------------------------------------------------------------------- */
 /*  Footer
 /* ---------------------------------------------------------------------- */
 
 #footer {
-  margin:40px 0 0;
   padding:50px 0 100px;
   background:#444;
   color:#a4a4a4;
@@ -1093,6 +1125,11 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   .portfolio-nav li { width:200px; }
 
   #map { height:200px; }
+
+  #contact-callout .button {
+    margin: 0 0 30px 0;
+    top: 30px;
+  }
 }
 
 

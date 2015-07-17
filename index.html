@@ -17,7 +17,7 @@
   (function() {
     var d = document,
         s = d.createElement('script'),
-        init = function() {try {LM.init("LM-3243948D75282CF860AD");}catch(e){}},
+        init = function() {try {LM.init();}catch(e){}},
         embedder = d.getElementsByTagName('script')[0];
     s.src = '//linkmetrics.s3.amazonaws.com/lm.js'; s.async = true; s.type = 'text/javascript';
     embedder.parentNode.insertBefore(s, embedder);
@@ -28,6 +28,7 @@
 </head>
 <body>
 
+<!--
 <div id="hellobar">
   <p>
 
@@ -56,8 +57,9 @@
    </script>
    <a id="blog" href="https://medium.com/@TimFletcher">Writing</a>
   </p>
-
 </div>
+-->
+
 
 <header id="header" class="container clearfix">
 

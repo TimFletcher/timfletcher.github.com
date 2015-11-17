@@ -13,16 +13,17 @@
   <script type="text/javascript" src="//use.typekit.net/ztq8evd.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+  <!-- LinkMetrics tracking snippet -->
   <script type="text/javascript">
-  (function() {
-    var d = document,
-        s = d.createElement('script'),
-        init = function() {try {LM.init();}catch(e){}},
-        embedder = d.getElementsByTagName('script')[0];
-    s.src = '//linkmetrics.s3.amazonaws.com/lm.js'; s.async = true; s.type = 'text/javascript';
-    embedder.parentNode.insertBefore(s, embedder);
-    window.attachEvent ? window.attachEvent('onload', init) : window.addEventListener('load', init, false);
-  })();
+    (function(w, d) {
+    var loader = function() {
+      var s = d.createElement('script'),
+          t = d.getElementsByTagName('script')[0];
+      s.src = '//cdn.linkmetrics.io/lm.js'; s.async = true; s.type = 'text/javascript';
+      t.parentNode.insertBefore(s, t);
+    };
+    w.attachEvent ? w.attachEvent('onload', loader) : w.addEventListener('load', loader, false);
+  })(window, document);
   </script>
 
 </head>

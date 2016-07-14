@@ -1,4 +1,4 @@
-    
+
 /* ---------------------------------------------------------------------- */
 /*  Reset & Clearfix
 /* ---------------------------------------------------------------------- */
@@ -8,7 +8,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 body {
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-size:14px;
   line-height:22px;
   color:#727378;
@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6 {
   line-height:1.2;
   color:#444;
   letter-spacing:-0.05em;
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-style: normal;
   font-weight: 700;
 }
@@ -84,7 +84,7 @@ input[type="text"] {
   padding:5px 8px;
   background:#f5f5f5;
   border:1px solid #cccccc;
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-weight:normal;
   font-size:13px;
   color:#727378;
@@ -110,7 +110,7 @@ textarea {
   padding:12px;
   background:#f5f5f5;
   border:1px solid #cccccc;
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-weight:normal;
   font-size:13px;
   color:#727378;
@@ -133,15 +133,15 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 
 
 ::-webkit-input-placeholder {
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-weight:normal;
   font-size:13px;
   color:#727378;
   -webkit-font-smoothing:antialiased;
 }
 
-:-moz-placeholder {  
-  font-family: "museo-sans",sans-serif;
+:-moz-placeholder {
+  font-family: "Open Sans",sans-serif;
   font-weight:normal;
   font-size:13px;
   color:#727378;
@@ -164,7 +164,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 .form label {
   display:inline-block;
   margin:0 0 6px;
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-weight:normal;
   font-size:13px;
   color:#727378;
@@ -205,7 +205,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 #hellobar .button {
   padding: 3px 10px 2px 12px;
   margin: 1px 0 1px 10px;
-  font-family: "museo-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #444444;
 }
 
@@ -368,7 +368,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   padding-left:13px;
   height:40px;
   background:#444 url(../images/responsive-nav.png) no-repeat right;
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-weight:600;
   font-size:16px;
   color:#ffffff;
@@ -542,7 +542,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 #footer h6 { color:#fff; }
 
 #footer .button {
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   margin: 10px 0 10px 0;
 }
 
@@ -647,9 +647,9 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 
 
 /* ------------------------------------------- */
-/*  Portfolio - 
+/*  Portfolio -
 /*      1. Portfolio
-/*    2. Two Column 
+/*    2. Two Column
 /*    3. Three Column
 /*    4. Four Column
 /*    5. Single
@@ -686,7 +686,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
      -moz-transition:opacity .3s;
       -ms-transition:opacity .3s;
        -o-transition:opacity .3s;
-          transition:opacity .3s; 
+          transition:opacity .3s;
 }
 
 .portfolio article .title {
@@ -755,7 +755,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   display:block;
   padding:5px 10px;
   background:#444;
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-weight:bold;
   font-size:14px;
   color:#fff;
@@ -816,7 +816,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 
 #blog .entry .entry-meta { margin:0 0 10px; }
 
-#blog .entry .entry-meta .calender  { background-image:url(../images/calender.png); } 
+#blog .entry .entry-meta .calender  { background-image:url(../images/calender.png); }
 
 #blog .entry .entry-meta .comments  { background-image:url(../images/comments.png); }
 
@@ -942,7 +942,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   margin:0 10px 10px 0;
   padding:5px 10px;
   background:#ff674f;
-  font-family: "museo-sans",sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-weight:bold;
   font-size:14px;
   color:#fff;
@@ -1037,9 +1037,20 @@ input[type="text"]:focus { border-color:#aaaaaa; }
   border-width:6px;
 }
 
+#contact-callout {
+  margin: 0;
+  line-height: 1.1;
+}
+
+
+#contact-callout .button {
+  margin: 20px 0 10px 0;
+}
+
+
 /* ------------------------------------------- */
-/*  Responsive Styles - 
-/*    1. Tablet 
+/*  Responsive Styles -
+/*    1. Tablet
 /*    2. Mobile Portrait
 /*    3. Mobile Landscape
 /* ------------------------------------------- */
@@ -1073,7 +1084,7 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 
 @media only screen and (max-width: 767px) {
   .page-notification .container { padding-left:30px; padding-right:30px; }
-  
+
   #header .logo { border:none; float:none; display:block; margin:36px auto 0 auto; }
 
   #header .head-logo { border:none; padding:0; width:100%;}
@@ -1146,9 +1157,12 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 
   #map { height:200px; }
 
+  #contact-callout {
+  }
+
   #contact-callout .button {
-    margin: 0 0 30px 0;
-    top: 30px;
+    margin: 0 0 20px 0;
+    top: 20px;
   }
 }
 
@@ -1193,4 +1207,3 @@ input[type="text"]:focus { border-color:#aaaaaa; }
 .social-icons li.quora:hover    { background-color: #A82400; background-position: -184px -46px; opacity:1; }
 .social-icons li.linkedin:hover { background-color: #319BDF; background-position: -230px -46px; opacity:1; }
 .social-icons li.rdio:hover     { background-color: #008FD5; background-position: -276px -46px; opacity:1; }
-
